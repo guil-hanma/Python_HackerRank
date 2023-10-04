@@ -6,9 +6,8 @@ import random
 import re
 import sys
 
-
 if __name__ == '__main__':
-    n = int(input().strip())
+    n = int(input("Qual valor você quer descobrir se é Weird ou Not Weird: ").strip())
     check = {True: "Not Weird", False: "Weird"}
 
 print(check[
