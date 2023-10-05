@@ -1,3 +1,7 @@
+# 6. Write a Python program that accepts a sequence of comma-separated numbers
+# from the user and generates a list and a tuple of those numbers.
+
+
 import numpy as np
 
 valores = input("Insira os valores separados por virgula: ")
