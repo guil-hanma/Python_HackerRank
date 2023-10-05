@@ -3,7 +3,7 @@ import math
 
 r = float(input("Qual o raio do seu circulo? ").strip())
 radius = math.pi*r*r
-print("A area do seu circulo é: ", round(radius, 2), end=" ")
+print(f"A area do seu circulo é: ", round(radius, 2), end=" ")
 
 # Calculo com o diametro
 
