@@ -1,3 +1,10 @@
+# from datetime import date
+# f_date = date(2014, 7, 2)
+# l_date = date(2014, 7, 11)
+# delta = l_date - f_date
+# print(delta.days)
+
+
 import datetime
 
 print("Esse programa irá calcular a diferença de dias entre a data inicial e data final")
@@ -14,7 +21,7 @@ def formatar_data(data_str):
         if len(str(mes)) == 1:
             mes = f"0{mes}"
 
-        return f"{ano},{mes},{dia}"
+        return f"{ano}, {mes}, {dia}"
     else:
         return None
 
